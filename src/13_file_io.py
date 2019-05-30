@@ -17,4 +17,8 @@ print(read_data)
 # then close the file. Open up "bar.txt" and inspect it to make
 # sure that it contains what you expect it to contain
 
-# YOUR CODE HERE
+file = open("bar.txt", "w")
+file.write("Hello, World!\n")
+file.write("This is our new text file\n")
+file.write("and this is another line.\n")
+file.close()
